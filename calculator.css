@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+}
+.display input{
+    width: 230px;
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+}
+.container .buttons{
+    padding: 15px;
+}
+.container .buttons button{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: goldenrod;
+}
+.container .ab button{
+    width: 60px;
+    text-align: left;
+
+}
+.container .boarder{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: silver;
+    color: gold;
+
+}
+.container .boarder h2{
+    background-color: black;
+}
+
